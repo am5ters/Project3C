@@ -9,16 +9,20 @@ public class FPSController : MonoBehaviour
     public Camera playerCamera;
 
     [Header("Movement Speed")]
-    [SerializeField][Range(1,50)]
+    [SerializeField]
+    [Range(1, 50)]
     public float walkSpeed = 6f;
-    [SerializeField][Range(1,100)]
+    [SerializeField]
+    [Range(1, 100)]
     public float runSpeed = 12f;
 
     [Header("Weeeee")]
-    [SerializeField][Range(0,100)]
+    [SerializeField]
+    [Range(0, 100)]
     [Tooltip("How strong are your legs?")]
     public float jumpPower = 7f;
-    [SerializeField][Range(0,100)]
+    [SerializeField]
+    [Range(0, 100)]
     [Tooltip("How strong is gravity?")]
     public float gravity = 10f;
 
@@ -28,11 +32,11 @@ public class FPSController : MonoBehaviour
     [Tooltip("How far you can turn your head")]
     public float lookXLimit = 45f;
 
-    Vector3 moveDirection = Vector3.zero;
-    float rotationX = 0;
-
     [Header("Can I move?")]
     public bool canMove = true;
+
+    Vector3 moveDirection = Vector3.zero;
+    float rotationX = 0;
 
     CharacterController characterController;
 
