@@ -268,12 +268,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 1959002965}
-  walkSpeed: 6
-  runSpeed: 12
-  jumpPower: 7
+  walkSpeed: 8.2
+  runSpeed: 15.5
+  jumpPower: 7.7
   gravity: 10
   lookSpeed: 2
-  lookXLimit: 45
+  lookXLimit: 180
   canMove: 1
 --- !u!143 &670453468
 CharacterController:
@@ -986,7 +986,7 @@ GameObject:
   - component: {fileID: 1959002965}
   - component: {fileID: 1959002964}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: PlayerCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
