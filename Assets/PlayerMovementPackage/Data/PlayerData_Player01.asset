@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6849f50ed68a1ff4588e1e7e1303ed10, type: 3}
   m_Name: PlayerData_Player01
   m_EditorClassIdentifier: 
-  _name: Amy
+  _name: ...
   playerCamera: {fileID: 0}
   walkSpeed: 6
   runSpeed: 12
