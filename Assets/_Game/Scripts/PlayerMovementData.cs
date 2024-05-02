@@ -5,6 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "PlayerData_", menuName = "UnitData/Player")]
 public class PlayerMovementData : ScriptableObject
 {
+    [Tooltip("What's your name?")]
+    [SerializeField]
+    private string _name = "...";
+
     [Tooltip("Insert player camera here")]
     public Camera playerCamera;
 

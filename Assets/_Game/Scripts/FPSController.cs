@@ -8,6 +8,9 @@ public class FPSController : MonoBehaviour
     [Tooltip("Insert player camera here")]
     public Camera playerCamera;
 
+    [SerializeField]
+    private string _name;
+
     [Header("Movement Speed")]
     [SerializeField]
     [Range(1, 50)]
